@@ -1,12 +1,13 @@
-   Project Name: Akasa Foods
-1.	  Description: Akasa Foods is a online food ordering Portal where users can select and add items to the cart and place an order.
+   # Akasa Foods
+## Description: 
+Akasa Foods is a online food ordering Portal where users can select and add items to the cart and place an order.
    Technology Stack: 
      - Frontend: ReactJS
      - Backend: Django
      - Database: SQLite 
      - Libraries/Tools: Axios, React Router, Django Rest Framework, etc.
 
-2. Setup Instructions
+## Setup Instructions
    - Prerequisites: 
    - Installation Steps:
      1. Clone the repository.
@@ -36,7 +37,7 @@
 	npm start``
           
 
-3. Authentication Features
+## Authentication Features
    - Registration: 
      - Endpoint: `/api/register/`
      - Method: POST
@@ -60,7 +61,7 @@
          "password": "password123"
        }`
 
- 4. Cart Functionality
+ ## Cart Functionality
    - Add to Cart:
      - Endpoint: `/api/product/${id}/add-to-cart/`
      - Method: POST
@@ -75,10 +76,10 @@
      - Endpoint: `/api/cart/`
      - Method: GET
      - Description: Users can view their cart with products and quantities.
-5. Checkout Functionality
+## Checkout Functionality
    - Process: Ensure items in the cart are in stock. 
   
-6. Future Improvements
+## Future Improvements
    - Fix cart functionality with user login validation.
    - Improve error handling during the checkout process.
 
